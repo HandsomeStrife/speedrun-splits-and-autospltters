@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1405</X>
-  <Y>824</Y>
-  <VerticalWidth>286</VerticalWidth>
-  <VerticalHeight>197</VerticalHeight>
-  <HorizontalWidth>-1</HorizontalWidth>
-  <HorizontalHeight>-1</HorizontalHeight>
+  <X>1359</X>
+  <Y>808</Y>
+  <VerticalWidth>553</VerticalWidth>
+  <VerticalHeight>214</VerticalHeight>
+  <HorizontalWidth>1199</HorizontalWidth>
+  <HorizontalHeight>45</HorizontalHeight>
   <Settings>
     <TextColor>FFFFFFFF</TextColor>
-    <BackgroundColor>FF0F0F0F</BackgroundColor>
+    <BackgroundColor>FF222222</BackgroundColor>
     <BackgroundColor2>00000000</BackgroundColor2>
     <ThinSeparatorsColor>03FFFFFF</ThinSeparatorsColor>
     <SeparatorsColor>24FFFFFF</SeparatorsColor>
@@ -26,7 +26,7 @@
     <ShadowsColor>80000000</ShadowsColor>
     <TimesFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TimesFont>
     <TimerFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAdDYWxpYnJpAAAvQgX8////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAgAAAAEAAAAF+////xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==]]></TimerFont>
-    <TextFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TextFont>
+    <TextFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAA1DYWxpYnJpIExpZ2h0AACgQQX8////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAgAAAAAAAAAF+////xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==]]></TextFont>
     <AlwaysOnTop>True</AlwaysOnTop>
     <ShowBestSegments>True</ShowBestSegments>
     <AntiAliasing>True</AntiAliasing>
@@ -40,34 +40,11 @@
   </Settings>
   <Components>
     <Component>
-      <Path>LiveSplit.Title.dll</Path>
-      <Settings>
-        <Version>1.7.3</Version>
-        <ShowGameName>True</ShowGameName>
-        <ShowCategoryName>True</ShowCategoryName>
-        <ShowAttemptCount>True</ShowAttemptCount>
-        <ShowFinishedRunsCount>False</ShowFinishedRunsCount>
-        <OverrideTitleFont>False</OverrideTitleFont>
-        <OverrideTitleColor>False</OverrideTitleColor>
-        <TitleFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TitleFont>
-        <SingleLine>False</SingleLine>
-        <TitleColor>FFFFFFFF</TitleColor>
-        <BackgroundColor>FF2A2A2A</BackgroundColor>
-        <BackgroundColor2>FF131313</BackgroundColor2>
-        <BackgroundGradient>Vertical</BackgroundGradient>
-        <DisplayGameIcon>True</DisplayGameIcon>
-        <ShowRegion>False</ShowRegion>
-        <ShowPlatform>False</ShowPlatform>
-        <ShowVariables>True</ShowVariables>
-        <TextAlignment>0</TextAlignment>
-      </Settings>
-    </Component>
-    <Component>
       <Path>LiveSplit.Splits.dll</Path>
       <Settings>
         <Version>1.6</Version>
-        <CurrentSplitTopColor>FF3373F4</CurrentSplitTopColor>
-        <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
+        <CurrentSplitTopColor>FF303030</CurrentSplitTopColor>
+        <CurrentSplitBottomColor>FFFFC1D5</CurrentSplitBottomColor>
         <VisualSplitCount>3</VisualSplitCount>
         <SplitPreviewCount>0</SplitPreviewCount>
         <DisplayIcons>True</DisplayIcons>
@@ -89,7 +66,7 @@
         <IconSize>24</IconSize>
         <IconShadows>True</IconShadows>
         <SplitHeight>3.6</SplitHeight>
-        <CurrentSplitGradient>Vertical</CurrentSplitGradient>
+        <CurrentSplitGradient>Plain</CurrentSplitGradient>
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>01FFFFFF</BackgroundColor2>
         <BackgroundGradient>Alternating</BackgroundGradient>
@@ -99,9 +76,16 @@
         <OverrideDeltasColor>False</OverrideDeltasColor>
         <DeltasColor>FFFFFFFF</DeltasColor>
         <Display2Rows>False</Display2Rows>
-        <ShowColumnLabels>False</ShowColumnLabels>
+        <ShowColumnLabels>True</ShowColumnLabels>
         <LabelsColor>FFFFFFFF</LabelsColor>
         <Columns>
+          <Settings>
+            <Version>1.5</Version>
+            <Name>Lvl</Name>
+            <Type>SegmentDelta</Type>
+            <Comparison>Current Comparison</Comparison>
+            <TimingMethod>Current Timing Method</TimingMethod>
+          </Settings>
           <Settings>
             <Version>1.5</Version>
             <Name>+/-</Name>
@@ -116,7 +100,32 @@
             <Comparison>Current Comparison</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
+          <Settings>
+            <Version>1.5</Version>
+            <Name>IGT</Name>
+            <Type>SplitTime</Type>
+            <Comparison>Current Comparison</Comparison>
+            <TimingMethod>Game Time</TimingMethod>
+          </Settings>
         </Columns>
+      </Settings>
+    </Component>
+    <Component>
+      <Path>LiveSplit.Timer.dll</Path>
+      <Settings>
+        <Version>1.5</Version>
+        <TimerHeight>41</TimerHeight>
+        <TimerWidth>225</TimerWidth>
+        <TimerFormat>1.23</TimerFormat>
+        <OverrideSplitColors>False</OverrideSplitColors>
+        <ShowGradient>True</ShowGradient>
+        <TimerColor>FFAAAAAA</TimerColor>
+        <BackgroundColor>00FFFFFF</BackgroundColor>
+        <BackgroundColor2>00FFFFFF</BackgroundColor2>
+        <BackgroundGradient>Plain</BackgroundGradient>
+        <CenterTimer>False</CenterTimer>
+        <TimingMethod>Game Time</TimingMethod>
+        <DecimalsSize>35</DecimalsSize>
       </Settings>
     </Component>
     <Component>
@@ -135,34 +144,6 @@
         <CenterTimer>False</CenterTimer>
         <TimingMethod>Current Timing Method</TimingMethod>
         <DecimalsSize>35</DecimalsSize>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.PreviousSegment.dll</Path>
-      <Settings>
-        <Version>1.6</Version>
-        <TextColor>FFFFFFFF</TextColor>
-        <OverrideTextColor>False</OverrideTextColor>
-        <BackgroundColor>FF1C1C1C</BackgroundColor>
-        <BackgroundColor2>FF0D0D0D</BackgroundColor2>
-        <BackgroundGradient>Vertical</BackgroundGradient>
-        <DeltaAccuracy>Tenths</DeltaAccuracy>
-        <DropDecimals>True</DropDecimals>
-        <Comparison>Current Comparison</Comparison>
-        <Display2Rows>False</Display2Rows>
-        <ShowPossibleTimeSave>False</ShowPossibleTimeSave>
-        <TimeSaveAccuracy>Tenths</TimeSaveAccuracy>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
-      <Settings>
-        <Version>1.5</Version>
-        <ScriptPath>D:\My Games\Splits\Captain Planet (Megadrive)\autosplitter.asl</ScriptPath>
-        <Start>True</Start>
-        <Reset>True</Reset>
-        <Split>True</Split>
-        <CustomSettings />
       </Settings>
     </Component>
   </Components>

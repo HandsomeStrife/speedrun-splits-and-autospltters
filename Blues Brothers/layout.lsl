@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1405</X>
-  <Y>824</Y>
-  <VerticalWidth>286</VerticalWidth>
-  <VerticalHeight>197</VerticalHeight>
+  <X>1538</X>
+  <Y>685</Y>
+  <VerticalWidth>340</VerticalWidth>
+  <VerticalHeight>298</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -68,7 +68,7 @@
         <Version>1.6</Version>
         <CurrentSplitTopColor>FF3373F4</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
-        <VisualSplitCount>3</VisualSplitCount>
+        <VisualSplitCount>5</VisualSplitCount>
         <SplitPreviewCount>0</SplitPreviewCount>
         <DisplayIcons>True</DisplayIcons>
         <ShowThinSeparators>True</ShowThinSeparators>
@@ -99,9 +99,16 @@
         <OverrideDeltasColor>False</OverrideDeltasColor>
         <DeltasColor>FFFFFFFF</DeltasColor>
         <Display2Rows>False</Display2Rows>
-        <ShowColumnLabels>False</ShowColumnLabels>
+        <ShowColumnLabels>True</ShowColumnLabels>
         <LabelsColor>FFFFFFFF</LabelsColor>
         <Columns>
+          <Settings>
+            <Version>1.5</Version>
+            <Name>Lvl</Name>
+            <Type>SegmentDelta</Type>
+            <Comparison>Current Comparison</Comparison>
+            <TimingMethod>Current Timing Method</TimingMethod>
+          </Settings>
           <Settings>
             <Version>1.5</Version>
             <Name>+/-</Name>
@@ -152,17 +159,6 @@
         <Display2Rows>False</Display2Rows>
         <ShowPossibleTimeSave>False</ShowPossibleTimeSave>
         <TimeSaveAccuracy>Tenths</TimeSaveAccuracy>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
-      <Settings>
-        <Version>1.5</Version>
-        <ScriptPath>D:\My Games\Splits\Captain Planet (Megadrive)\autosplitter.asl</ScriptPath>
-        <Start>True</Start>
-        <Reset>True</Reset>
-        <Split>True</Split>
-        <CustomSettings />
       </Settings>
     </Component>
   </Components>

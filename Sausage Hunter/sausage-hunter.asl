@@ -1,7 +1,7 @@
 state("Sausage Hunter")
 {
     byte level: "Sausage Hunter.exe", 0x64E608
-}
+}v
 
 state("Hand_Cat (3)")
 {

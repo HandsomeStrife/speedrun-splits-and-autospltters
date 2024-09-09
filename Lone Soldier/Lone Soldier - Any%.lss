@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Lone Soldier</GameName>
+  <CategoryName>Any%</CategoryName>
+  <LayoutPath>D:\My Games\Splits\Lone Soldier\layout.lsl</LayoutPath>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>53</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="08/15/2024 22:54:40" isStartedSynced="True" ended="08/15/2024 22:55:22" isEndedSynced="True" />
+    <Attempt id="2" started="08/15/2024 23:00:52" isStartedSynced="True" ended="08/15/2024 23:12:20" isEndedSynced="True" />
+    <Attempt id="3" started="08/15/2024 23:12:39" isStartedSynced="True" ended="08/15/2024 23:21:53" isEndedSynced="True" />
+    <Attempt id="4" started="08/15/2024 23:27:29" isStartedSynced="True" ended="08/15/2024 23:29:26" isEndedSynced="True" />
+    <Attempt id="5" started="08/15/2024 23:33:19" isStartedSynced="True" ended="08/15/2024 23:33:45" isEndedSynced="True" />
+    <Attempt id="6" started="08/15/2024 23:34:42" isStartedSynced="True" ended="08/15/2024 23:36:10" isEndedSynced="True" />
+    <Attempt id="7" started="08/19/2024 16:45:47" isStartedSynced="True" ended="08/19/2024 16:46:41" isEndedSynced="True" />
+    <Attempt id="8" started="08/20/2024 08:20:00" isStartedSynced="True" ended="08/20/2024 08:21:20" isEndedSynced="True" />
+    <Attempt id="9" started="08/20/2024 08:22:25" isStartedSynced="True" ended="08/20/2024 08:55:43" isEndedSynced="True">
+      <RealTime>00:33:17.9947066</RealTime>
+    </Attempt>
+    <Attempt id="10" started="08/20/2024 08:57:00" isStartedSynced="True" ended="08/20/2024 09:24:22" isEndedSynced="True">
+      <RealTime>00:27:22.4785243</RealTime>
+    </Attempt>
+    <Attempt id="11" started="08/20/2024 09:28:26" isStartedSynced="True" ended="08/20/2024 09:29:54" isEndedSynced="True" />
+    <Attempt id="12" started="08/20/2024 09:31:06" isStartedSynced="True" ended="08/20/2024 09:43:22" isEndedSynced="True" />
+    <Attempt id="13" started="08/20/2024 09:46:27" isStartedSynced="True" ended="08/20/2024 09:48:02" isEndedSynced="True" />
+    <Attempt id="14" started="08/20/2024 09:49:25" isStartedSynced="True" ended="08/20/2024 09:57:07" isEndedSynced="True" />
+    <Attempt id="15" started="08/20/2024 10:03:11" isStartedSynced="True" ended="08/20/2024 10:05:48" isEndedSynced="True" />
+    <Attempt id="16" started="08/20/2024 10:08:48" isStartedSynced="True" ended="08/20/2024 10:08:50" isEndedSynced="True" />
+    <Attempt id="17" started="08/20/2024 10:10:28" isStartedSynced="True" ended="08/20/2024 10:17:03" isEndedSynced="True" />
+    <Attempt id="18" started="08/20/2024 10:19:44" isStartedSynced="True" ended="08/20/2024 10:21:10" isEndedSynced="True" />
+    <Attempt id="19" started="08/20/2024 10:25:01" isStartedSynced="True" ended="08/20/2024 10:26:25" isEndedSynced="True" />
+    <Attempt id="20" started="08/20/2024 10:27:51" isStartedSynced="True" ended="08/20/2024 10:30:42" isEndedSynced="True" />
+    <Attempt id="21" started="08/20/2024 10:32:27" isStartedSynced="True" ended="08/20/2024 10:37:14" isEndedSynced="True" />
+    <Attempt id="22" started="08/20/2024 10:38:40" isStartedSynced="True" ended="08/20/2024 10:38:58" isEndedSynced="True" />
+    <Attempt id="23" started="08/20/2024 10:40:38" isStartedSynced="True" ended="08/20/2024 10:42:05" isEndedSynced="True" />
+    <Attempt id="24" started="08/20/2024 10:43:14" isStartedSynced="True" ended="08/20/2024 10:44:38" isEndedSynced="True" />
+    <Attempt id="25" started="08/20/2024 10:47:22" isStartedSynced="True" ended="08/20/2024 10:47:27" isEndedSynced="True" />
+    <Attempt id="26" started="08/20/2024 13:53:39" isStartedSynced="True" ended="08/20/2024 13:54:19" isEndedSynced="True" />
+    <Attempt id="27" started="08/20/2024 14:00:15" isStartedSynced="True" ended="08/20/2024 14:01:44" isEndedSynced="True" />
+    <Attempt id="28" started="08/20/2024 14:02:38" isStartedSynced="True" ended="08/20/2024 14:05:43" isEndedSynced="True" />
+    <Attempt id="29" started="08/20/2024 14:19:03" isStartedSynced="True" ended="08/20/2024 14:20:22" isEndedSynced="True" />
+    <Attempt id="30" started="08/20/2024 14:20:22" isStartedSynced="True" ended="08/20/2024 14:20:26" isEndedSynced="True" />
+    <Attempt id="31" started="08/20/2024 14:21:28" isStartedSynced="True" ended="08/20/2024 14:32:13" isEndedSynced="True" />
+    <Attempt id="32" started="08/20/2024 14:36:21" isStartedSynced="True" ended="08/20/2024 14:44:11" isEndedSynced="True" />
+    <Attempt id="33" started="08/20/2024 14:48:10" isStartedSynced="True" ended="08/20/2024 15:14:01" isEndedSynced="True">
+      <RealTime>00:25:51.3531166</RealTime>
+    </Attempt>
+    <Attempt id="34" started="08/20/2024 15:21:31" isStartedSynced="True" ended="08/20/2024 15:46:10" isEndedSynced="True">
+      <RealTime>00:24:38.7312773</RealTime>
+    </Attempt>
+    <Attempt id="35" started="08/20/2024 15:51:15" isStartedSynced="True" ended="08/20/2024 15:57:02" isEndedSynced="True" />
+    <Attempt id="36" started="08/20/2024 15:58:40" isStartedSynced="True" ended="08/20/2024 16:01:04" isEndedSynced="True" />
+    <Attempt id="37" started="08/20/2024 16:01:51" isStartedSynced="True" ended="08/20/2024 16:02:08" isEndedSynced="True" />
+    <Attempt id="38" started="08/20/2024 16:02:41" isStartedSynced="True" ended="08/20/2024 16:09:54" isEndedSynced="True" />
+    <Attempt id="39" started="08/20/2024 16:11:01" isStartedSynced="True" ended="08/20/2024 16:11:25" isEndedSynced="True" />
+    <Attempt id="40" started="08/20/2024 16:12:01" isStartedSynced="True" ended="08/20/2024 16:13:08" isEndedSynced="True" />
+    <Attempt id="41" started="08/20/2024 16:13:48" isStartedSynced="True" ended="08/20/2024 16:38:41" isEndedSynced="True" />
+    <Attempt id="42" started="08/20/2024 16:39:56" isStartedSynced="True" ended="08/20/2024 16:40:47" isEndedSynced="True" />
+    <Attempt id="43" started="08/20/2024 16:41:21" isStartedSynced="True" ended="08/20/2024 17:05:59" isEndedSynced="True">
+      <RealTime>00:24:37.6685091</RealTime>
+    </Attempt>
+    <Attempt id="44" started="08/20/2024 17:14:32" isStartedSynced="True" ended="08/20/2024 17:21:42" isEndedSynced="True" />
+    <Attempt id="45" started="08/20/2024 17:26:27" isStartedSynced="True" ended="08/20/2024 17:37:32" isEndedSynced="True" />
+    <Attempt id="46" started="08/20/2024 17:38:22" isStartedSynced="True" ended="08/20/2024 17:39:14" isEndedSynced="True" />
+    <Attempt id="47" started="08/20/2024 17:40:09" isStartedSynced="True" ended="08/20/2024 17:51:11" isEndedSynced="True" />
+    <Attempt id="48" started="08/20/2024 17:53:08" isStartedSynced="True" ended="08/20/2024 18:17:50" isEndedSynced="True" />
+    <Attempt id="49" started="08/20/2024 18:18:37" isStartedSynced="True" ended="08/20/2024 18:43:14" isEndedSynced="True" />
+    <Attempt id="50" started="08/20/2024 18:46:52" isStartedSynced="True" ended="08/20/2024 18:52:27" isEndedSynced="True" />
+    <Attempt id="51" started="08/20/2024 18:57:01" isStartedSynced="True" ended="08/20/2024 18:58:19" isEndedSynced="True" />
+    <Attempt id="52" started="08/20/2024 18:59:03" isStartedSynced="True" ended="08/20/2024 19:16:49" isEndedSynced="True" />
+    <Attempt id="53" started="08/20/2024 19:18:19" isStartedSynced="True" ended="08/20/2024 19:42:09" isEndedSynced="True">
+      <RealTime>00:23:49.9532023</RealTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>-Mission 1 (20)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:12.9536731</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:10.5425195</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:12.9536731</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:15.9690203</RealTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:01:13.4074824</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:14.0565076</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:10.5425195</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:16.3218026</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 2 (21)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:24.1537632</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:08.3617837</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:11.2000901</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:13.1579688</RealTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:01:09.2961267</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:08.3617837</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:11.0003097</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:10.6888669</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 3 (14)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:03:14.3424273</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:49.2732782</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:00:50.1886641</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:00:52.6493115</RealTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:50.3119172</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:54.4302507</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:49.2732782</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:51.1524336</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 4 (14)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:04:31.9709353</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.2358602</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:17.6285080</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:17.1437780</RealTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:01:16.6918113</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:16.2656155</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:19.6940716</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:14.2358602</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Jungle} Boss</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:05:29.3417074</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.5465673</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:00:57.3707721</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:04.1207998</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:00:54.5465673</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:03.4381818</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:07.1321932</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 1 (22)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:07:00.1971547</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:30.4867921</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:30.8554473</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:30.4867921</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:31.0718880</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:35.5523557</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:32.1632994</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 2 (14)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:07:55.0809758</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.8412205</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="0">
+          <RealTime>00:00:58.8852215</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:54.8838211</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:54.8412205</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:56.5139440</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:55.3221589</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 3 (24)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:09:18.9507656</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.0480616</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="0">
+          <RealTime>00:01:34.1750574</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:01:23.8697898</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:21.0480616</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:33.1724113</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:23.7747631</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Canyons} Boss</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:10:37.6314940</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.2151494</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="52">
+          <RealTime>00:01:15.3758093</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:01:18.6807284</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:14.2151494</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:27.4853783</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:25.5267466</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 1 (15)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:12:15.8783430</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:35.7586184</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:38.2468490</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:35.8611361</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:37.7345008</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:35.7586184</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:41.7456272</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 2 (30)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:14:35.4126324</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.5342894</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:02:19.5342894</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:22.3678055</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:02:19.8919375</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:02:27.8172251</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:02:20.4017839</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 3 (18)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:16:11.9417043</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:36.5290719</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:36.5290719</RealTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:36.5535406</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:37.8740967</RealTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:01:39.4846048</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:38.6333759</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Streets} Boss</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:19:18.1857606</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:01.2095821</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="49">
+          <RealTime>00:01:02.9500322</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:03:06.2440563</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:01.2095821</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:08.3975486</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 1 (19)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:19:18.5591815</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:00.3734209</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="49">
+          <RealTime>00:01:53.1424543</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:00.3734209</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:51.5997695</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:51.6770444</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 2 (12)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:20:34.2360229</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:15.6768414</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="49">
+          <RealTime>00:01:20.7485995</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:01:15.6768414</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:17.0574358</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:22.9666483</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mission 3 (25)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:22:35.8691282</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.0565820</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="49">
+          <RealTime>00:01:49.3419902</RealTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:02:01.6331053</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:02:05.7190211</RealTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:01:49.0565820</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Alien Mothership} Boss</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:23:49.9532023</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.0840741</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="53">
+          <RealTime>00:01:14.0840741</RealTime>
+        </Time>
+        <Time id="0">
+          <RealTime>00:01:54.7682034</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>
