@@ -1,54 +1,75 @@
 state("ShooterGame-Win32-Shipping")
 {
-    byte level: 0x1C5023C, 0xA8, 0x4E0, 0x4C8;
+  string64 map : 0x1C4E024, 0x35C, 0x0;
+}
+
+init
+{
+    vars.level = 0;
+}
+
+update
+{
+    // if (current.map != null) {
+    //     print(current.map.ToString());
+    //     print(vars.level.ToString());
+    // }
 }
 
 isLoading
 {
-    return current.level == 0;
+    return current.map == null;
 }
 
 start
 {
-    return old.level == 234 && current.level == 0;
+    return (old.map == "ShooterEntry" || old.map == "/Game/Maps/menu3")
+            && current.map == null;
 }
 
 onStart
 {
     timer.IsGameTimePaused = true;
+    vars.level = 1;
+}
+
+onReset
+{
+    vars.level = 0;
 }
 
 split
 {
-    if (old.level == 0 && current.level == 221) {
+    if (old.map == null && current.map == "/Game/Maps/hallway") {
+        vars.level = 2;
         return true;
     }
-
-    if (old.level == 0 && current.level == 96) {
+    if (old.map == null && current.map == "/Game/Maps/hallway5") {
+        vars.level = 3;
         return true;
     }
-
-    if (old.level == 0 && current.level == 67) {
+    if (old.map == null && current.map == "/Game/Maps/beginninggame") {
+        vars.level = 4;
         return true;
     }
-
-    if (old.level == 0 && current.level == 92) {
+    if (old.map == null && current.map == "/Game/Maps/masterlevel1stlevel") {
+        vars.level = 5;
         return true;
     }
-
-    if (old.level == 0 && current.level == 178) {
+    if (old.map == null && current.map == "/Game/Maps/building") {
+        vars.level = 6;
         return true;
     }
-
-    if (old.level == 0 && current.level == 98) {
+    if (old.map == null && current.map == "/Game/Maps/City") {
+        vars.level = 7;
         return true;
     }
-
-    if (old.level == 0 && current.level == 207) {
+    if (old.map == null && current.map == "/Game/Maps/Sewers") {
+        vars.level = 8;
         return true;
     }
-
-    if (old.level == 0 && current.level == 234) {
+    if (vars.level == 8 && (current.map == "ShooterEntry" || current.map == "/Game/Maps/menu3")) {
+        vars.level = 0;
         return true;
     }
 }
