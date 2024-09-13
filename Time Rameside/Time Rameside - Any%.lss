@@ -13,13 +13,8 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>4</AttemptCount>
-  <AttemptHistory>
-    <Attempt id="1" started="09/05/2024 21:50:47" isStartedSynced="False" ended="09/05/2024 21:51:03" isEndedSynced="False" />
-    <Attempt id="2" started="09/05/2024 22:15:24" isStartedSynced="True" ended="09/05/2024 22:15:25" isEndedSynced="True" />
-    <Attempt id="3" started="09/09/2024 17:51:29" isStartedSynced="False" ended="09/09/2024 17:51:36" isEndedSynced="True" />
-    <Attempt id="4" started="09/09/2024 17:51:42" isStartedSynced="True" ended="09/09/2024 17:51:45" isEndedSynced="True" />
-  </AttemptHistory>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory></AttemptHistory>
   <Segments>
     <Segment>
       <Name>Intro</Name>
