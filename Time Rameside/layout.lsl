@@ -132,15 +132,5 @@
         <DecimalsSize>35</DecimalsSize>
       </Settings>
     </Component>
-    <Component>
-      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
-      <Settings>
-        <Version>1.5</Version>
-        <ScriptPath>D:\My Games\Splits\Time Rameside\autosplitter.asl</ScriptPath>
-        <Start>True</Start>
-        <Split>True</Split>
-        <CustomSettings />
-      </Settings>
-    </Component>
   </Components>
 </Layout>
