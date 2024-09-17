@@ -172,5 +172,4 @@
         <TimeSaveAccuracy>Tenths</TimeSaveAccuracy>
       </Settings>
     </Component>
-  </Components>
 </Layout>
