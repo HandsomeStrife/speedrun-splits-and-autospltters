@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Run version="1.7.0">
   <GameIcon />
-  <GameName>Time Rameside</GameName>
+  <GameName>Time Ramesside (A New Reckoning)</GameName>
   <CategoryName>Any%</CategoryName>
   <LayoutPath></LayoutPath>
   <Metadata>
@@ -13,8 +13,19 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>0</AttemptCount>
-  <AttemptHistory></AttemptHistory>
+  <AttemptCount>10</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="09/05/2024 21:50:47" isStartedSynced="False" ended="09/05/2024 21:51:03" isEndedSynced="False" />
+    <Attempt id="2" started="09/05/2024 22:15:24" isStartedSynced="True" ended="09/05/2024 22:15:25" isEndedSynced="True" />
+    <Attempt id="3" started="09/09/2024 17:51:29" isStartedSynced="False" ended="09/09/2024 17:51:36" isEndedSynced="True" />
+    <Attempt id="4" started="09/09/2024 17:51:42" isStartedSynced="True" ended="09/09/2024 17:51:45" isEndedSynced="True" />
+    <Attempt id="5" started="09/09/2024 17:52:06" isStartedSynced="False" ended="09/09/2024 17:52:12" isEndedSynced="False" />
+    <Attempt id="6" started="09/09/2024 17:52:15" isStartedSynced="False" ended="09/09/2024 17:52:18" isEndedSynced="False" />
+    <Attempt id="7" started="09/09/2024 17:58:48" isStartedSynced="True" ended="09/09/2024 18:01:08" isEndedSynced="True" />
+    <Attempt id="8" started="09/09/2024 18:03:53" isStartedSynced="True" ended="09/09/2024 18:06:39" isEndedSynced="True" />
+    <Attempt id="9" started="09/09/2024 18:07:06" isStartedSynced="True" ended="09/09/2024 18:15:42" isEndedSynced="True" />
+    <Attempt id="10" started="09/09/2024 18:15:47" isStartedSynced="True" ended="09/09/2024 18:22:36" isEndedSynced="True" />
+  </AttemptHistory>
   <Segments>
     <Segment>
       <Name>Intro</Name>
@@ -22,8 +33,24 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
+      <BestSegmentTime>
+        <RealTime>00:00:00.2830821</RealTime>
+        <GameTime>00:00:00.0007207</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="6">
+          <RealTime>00:00:00.2830821</RealTime>
+          <GameTime>00:00:00.0007207</GameTime>
+        </Time>
+        <Time id="9">
+          <RealTime>00:01:58.3758015</RealTime>
+          <GameTime>00:01:57.5687223</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:01:58.3877707</RealTime>
+          <GameTime>00:01:57.5800651</GameTime>
+        </Time>
+      </SegmentHistory>
     </Segment>
     <Segment>
       <Name>Prison Hallway</Name>

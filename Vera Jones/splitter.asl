@@ -1,6 +1,6 @@
 state("ClimberGirl")
 {
-    byte zero_when_loading : 0x269764;
+    byte loading : 0x264F24;
     byte level : 0x2638E0;
     byte menu_open: 0x25DB79;
     byte press_any_key: 0x26CC65;
@@ -8,12 +8,12 @@ state("ClimberGirl")
 
 start
 {
-    return old.press_any_key == 204 && current.press_any_key == 0;
+    return old.press_any_key > 0 && current.press_any_key == 0;
 }
 
 isLoading
 {
-    return current.zero_when_loading == 0;
+    return current.loading == 0;
 }
 
 split
