@@ -40,31 +40,31 @@ onReset
 
 split
 {
-    if (old.map == null && current.map == "/Game/Maps/hallway") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && current.map == "/Game/Maps/hallway") {
         vars.level = 2;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/hallway5") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && current.map == "/Game/Maps/hallway5") {
         vars.level = 3;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/beginninggame") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && current.map == "/Game/Maps/beginninggame") {
         vars.level = 4;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/masterlevel1stlevel") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && current.map == "/Game/Maps/masterlevel1stlevel") {
         vars.level = 5;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/building") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && current.map == "/Game/Maps/building") {
         vars.level = 6;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/City") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && (current.map == "/Game/Maps/City" || current.map == "/Game/Maps/city")) {
         vars.level = 7;
         return true;
     }
-    if (old.map == null && current.map == "/Game/Maps/Sewers") {
+    if ((old.map == null || old.map == '/Engine/Maps/Entry') && (current.map == "/Game/Maps/Sewers" || current.map == "/Game/Maps/sewers")) {
         vars.level = 8;
         return true;
     }
