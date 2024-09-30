@@ -10,10 +10,9 @@ init
 
 update
 {
-    // if (current.map != null) {
-    //     print(current.map.ToString());
-    //     print(vars.level.ToString());
-    // }
+    if (current.map != null && old.map != current.map) {
+        print(current.map.ToString());
+    }
 }
 
 isLoading
@@ -52,7 +51,7 @@ split
         vars.level = 4;
         return true;
     }
-    if ((old.map == null || old.map == "/Engine/Maps/Entry") && current.map == "/Game/Maps/masterlevel1stlevel") {
+    if ((old.map == null || old.map == "/Engine/Maps/Entry" || old.map == "/Game/Maps/MainMap") && current.map == "/Game/Maps/masterlevel1stlevel") {
         vars.level = 5;
         return true;
     }
