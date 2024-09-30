@@ -39,7 +39,7 @@ onReset
 
 split
 {
-    if ((old.map == null || old.map.ToLower() == "/engine/maps/entry") && current.map.ToLower() == "/game/maps/hallway") {
+    if ((old.map == null || old.map.ToLower() == "/engine/maps/entry") && current.map != null && current.map.ToLower() == "/game/maps/hallway") {
         vars.level = 2;
         return true;
     }
