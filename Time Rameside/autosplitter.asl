@@ -43,19 +43,19 @@ split
         vars.level = 2;
         return true;
     }
-    if ((old.map == null || old.map == "/Engine/Maps/Entry") && current.map == "/Game/Maps/hallway5") {
+    if (old.map != "/Game/Maps/hallway5" && current.map == "/Game/Maps/hallway5") {
         vars.level = 3;
         return true;
     }
-    if ((old.map == null || old.map == "/Engine/Maps/Entry") && current.map == "/Game/Maps/beginninggame") {
+    if (old.map != "/Game/Maps/beginninggame" && current.map == "/Game/Maps/beginninggame") {
         vars.level = 4;
         return true;
     }
-    if ((old.map == null || old.map == "/Engine/Maps/Entry" || old.map == "/Game/Maps/MainMap") && current.map == "/Game/Maps/masterlevel1stlevel") {
+    if (old.map != "/Game/Maps/masterlevel1stlevel" && current.map == "/Game/Maps/masterlevel1stlevel") {
         vars.level = 5;
         return true;
     }
-    if ((old.map == null || old.map == "/Engine/Maps/Entry") && current.map == "/Game/Maps/building") {
+    if (old.map != "/Game/Maps/building" && current.map == "/Game/Maps/building") {
         vars.level = 6;
         return true;
     }
