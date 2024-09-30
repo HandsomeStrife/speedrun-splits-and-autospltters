@@ -39,35 +39,40 @@ onReset
 
 split
 {
-    if ((old.map == null || old.map.ToLower() == "/engine/maps/entry") && current.map != null && current.map.ToLower() == "/game/maps/hallway") {
+    if (current.map == null) return false;
+
+    string oldMapLower = old.map != null ? old.map.ToLower() : null;
+    string currentMapLower = current.map.ToLower();
+
+    if ((oldMapLower == null || oldMapLower == "/engine/maps/entry") && currentMapLower == "/game/maps/hallway") {
         vars.level = 2;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/hallway5" && current.map != null && current.map.ToLower() == "/game/maps/hallway5") {
+    if (oldMapLower != "/game/maps/hallway5" && currentMapLower == "/game/maps/hallway5") {
         vars.level = 3;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/beginninggame" && current.map != null && current.map.ToLower() == "/game/maps/beginninggame") {
+    if (oldMapLower != "/game/maps/beginninggame" && currentMapLower == "/game/maps/beginninggame") {
         vars.level = 4;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/masterlevel1stlevel" && current.map != null && current.map.ToLower() == "/game/maps/masterlevel1stlevel") {
+    if (oldMapLower != "/game/maps/masterlevel1stlevel" && currentMapLower == "/game/maps/masterlevel1stlevel") {
         vars.level = 5;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/building" && current.map != null && current.map.ToLower() == "/game/maps/building") {
+    if (oldMapLower != "/game/maps/building" && currentMapLower == "/game/maps/building") {
         vars.level = 6;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/city" && current.map != null && current.map.ToLower() == "/game/maps/city") {
+    if (oldMapLower != "/game/maps/city" && currentMapLower == "/game/maps/city") {
         vars.level = 7;
         return true;
     }
-    if (old.map != null && old.map.ToLower() != "/game/maps/sewers" && current.map != null && current.map.ToLower() == "/game/maps/sewers") {
+    if (oldMapLower != "/game/maps/sewers" && currentMapLower == "/game/maps/sewers") {
         vars.level = 8;
         return true;
     }
-    if (vars.level == 8 && current.map != null && (current.map.ToLower() == "shooterentry" || current.map.ToLower() == "/game/maps/menu3")) {
+    if (vars.level == 8 && (currentMapLower == "shooterentry" || currentMapLower == "/game/maps/menu3")) {
         vars.level = 0;
         return true;
     }
