@@ -1,6 +1,6 @@
 state("DarkApes")
 {
-    byte level: 0x16E18;
+    byte cutscene: "visionP71.dll", 0x15807B;
     byte loading: 0x16AB4;
 }
 
@@ -11,15 +11,11 @@ isLoading
 
 start
 {
-    return current.level != 0;
+    return old.cutscene == 0 && current.cutscene == 1;
 }
 
 split
 {
-    return current.level > old.level;
+    return old.cutscene == 0 && current.cutscene == 1;
 }
 
-reset
-{
-    return current.level == 0;
-}
