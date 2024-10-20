@@ -1,6 +1,7 @@
 state("Clown2-Win64-Shipping")
 {
-    int gameState : 0x4348B20;
+    int gameState : 0x43485D8;
+    int otherGameState: 0x4348B20;
 }
 
 init {
@@ -10,27 +11,26 @@ init {
 
 update
 {
-    if (current.gameState >= 2400) {
+    if (current.gameState != 6 && current.gameState != 2 && current.gameState != 0) {
         vars.in_level = true;
     }
-    if (current.gameState == 2389) {
-        vars.in_level = false;
+    if (current.gameState != old.gameState) {
+        print(current.gameState.ToString());
     }
 }
 
 start
 {
-    return old.gameState != 2390 && current.gameState == 2390;
+    return old.gameState == 0 && current.gameState == 6;
 }
-
 
 split
 {
-    // Any time you return to the overworld from being in a level, split. Unless its from the main menu.
-    if (old.gameState < 2390) {
+    if (vars.in_level && current.gameState == 2) {
+        vars.in_level = false;
         return false;
     }
-    if (vars.in_level && current.gameState == 2390) {
+    if (vars.in_level && current.gameState == 6) {
         vars.in_level = false;
         return true;
     }
