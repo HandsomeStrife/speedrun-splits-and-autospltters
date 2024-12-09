@@ -21,11 +21,6 @@ start
 
 split
 {
-    if (vars.level >= 4 && old.noClue != current.noClue) {
-        vars.level = vars.level + 1;
-        return true;
-    }
-
     if (old.noClue == 1 && current.noClue == 2) {
         vars.level = vars.level + 1;
         return true;

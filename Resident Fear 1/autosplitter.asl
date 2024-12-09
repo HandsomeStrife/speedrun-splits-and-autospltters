@@ -57,11 +57,6 @@ update
         vars.Log("Inventory: " + current.inventoryInitialised);
     }
 
-    if (current.cutscenePlaying != old.cutscenePlaying)
-    {
-        vars.Log("Cutscene: " + current.cutscenePlaying.ToString());
-    }
-
     current.activeScene = vars.Helper.Scenes.Active.Name ?? old.activeScene;
     current.loadingScene = vars.Helper.Scenes.Loaded[0].Name ?? old.loadingScene;
 
@@ -105,7 +100,7 @@ split
 
 isLoading
 {
-    return !current.inventoryInitialised || (current.cutscenePlaying == 1 && vars.level == 2);
+    return !current.inventoryInitialised;
 }
 
 reset
