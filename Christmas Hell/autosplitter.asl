@@ -1,7 +1,9 @@
-state("Christmas Hell") {
+state("Christmas Hell")
+{
     byte isLoading: 0x23DFD7C;
     byte level: 0x23D48C8, 0x0;
     byte started: 0x23D20BC;
+    byte scene: 0x23DD6B0, 0xB8, 0xBE8;
 }
 
 startup
@@ -11,6 +13,7 @@ startup
     vars.currentLevel = 0;
     vars.Helper.AlertLoadless();
 }
+
 
 start
 {
@@ -29,7 +32,7 @@ reset
 
 split
 {
-    return old.level != 3 && current.level == 3 && current.isLoading == 0;
+    return old.scene != 21 && current.scene == 21;
 }
 
 onSplit
