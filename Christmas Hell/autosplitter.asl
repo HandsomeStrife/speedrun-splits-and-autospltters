@@ -32,7 +32,7 @@ reset
 
 split
 {
-    return (old missionAccomplished != 21 && current missionAccomplished == 21) || (vars.currentLevel == 6 && current.presentCounter == 3);
+    return (old.missionAccomplished != 21 && current.missionAccomplished == 21) || (vars.currentLevel == 6 && current.presentCounter == 3);
 }
 
 onSplit
