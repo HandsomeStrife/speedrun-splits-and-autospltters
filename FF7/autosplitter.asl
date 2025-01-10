@@ -41,6 +41,12 @@ start
 
 update
 {
+    if (old.CurrentField != current.CurrentField) {
+        print("CurrentField: " + current.CurrentField.ToString());
+    }
+    if (old.GameMoment != current.GameMoment) {
+        print("GameMoment: " + current.GameMoment.ToString());
+    }
     if (old.ExitBattleStatus != current.ExitBattleStatus) {
         print("ExitBattleStatus: " + current.ExitBattleStatus.ToString());
     }
@@ -48,7 +54,7 @@ update
 
 split
 {
-    if (current.GameMoment == 15 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32) {
+    if (current.GameMoment == 15 && current.ExitBattleStatus == 32) {
         return settings["GS_B"] && vars.CompletedSplits.Add("GS_B");
     }
 
@@ -60,7 +66,7 @@ split
         return settings["GS"] && vars.CompletedSplits.Add("GS");
     }
 
-    if (current.GameMoment == 206 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32) {
+    if (current.GameMoment == 206 && current.ExitBattleStatus == 32) {
         return settings["APS_B"] && vars.CompletedSplits.Add("APS_B");
     }
 
@@ -72,27 +78,27 @@ split
         return settings["TGY"] && vars.CompletedSplits.Add("TGY");
     }
 
-    if (current.GameMoment == 221 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 160) {
+    if (current.GameMoment == 221 && current.ExitBattleStatus == 32) {
         return settings["RENO_B"] && vars.CompletedSplits.Add("RENO_B");
     }
 
-    if (current.GameMoment == 260 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 238) {
+    if (current.GameMoment == 260 && current.ExitBattleStatus == 32) {
         return settings["MG_B"] && vars.CompletedSplits.Add("MG_B");
     }
 
-    if (current.GameMoment == 278 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 263) {
+    if (current.GameMoment == 278 && current.ExitBattleStatus == 32) {
         return settings["SH_B"] && vars.CompletedSplits.Add("SH_B");
     }
 
-    if (current.GameMoment == 311 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 233) {
+    if (current.GameMoment == 311 && current.ExitBattleStatus == 32) {
         return settings["GUN_B"] && vars.CompletedSplits.Add("GUN_B");
     }
 
-    if (current.GameMoment == 314 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 268) {
+    if (current.GameMoment == 314 && current.ExitBattleStatus == 32) {
         return settings["RUFUS_B"] && vars.CompletedSplits.Add("RUFUS_B");
     }
 
-    if (current.GameMoment == 332 && old.ExitBattleStatus == 0 && current.ExitBattleStatus == 32 && current.CurrentField == 103) {
+    if (current.GameMoment == 332 && current.ExitBattleStatus == 32) {
         return settings["MB_B"] && vars.CompletedSplits.Add("MB_B");
     }
 

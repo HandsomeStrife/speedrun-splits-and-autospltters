@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Final Fantasy VII</GameName>
+  <CategoryName>Escape From Midgar</CategoryName>
+  <LayoutPath>D:\FF7\ff7-ps1-layout.lsl</LayoutPath>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>5</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="12/29/2024 12:11:38" isStartedSynced="True" ended="12/29/2024 12:12:12" isEndedSynced="True" />
+    <Attempt id="2" started="12/29/2024 12:12:15" isStartedSynced="True" ended="12/29/2024 12:26:45" isEndedSynced="True" />
+    <Attempt id="3" started="12/29/2024 12:32:05" isStartedSynced="True" ended="12/29/2024 12:40:17" isEndedSynced="True" />
+    <Attempt id="4" started="12/29/2024 13:15:57" isStartedSynced="True" ended="12/29/2024 13:17:24" isEndedSynced="True" />
+    <Attempt id="5" started="12/29/2024 13:17:47" isStartedSynced="True" ended="12/29/2024 14:22:40" isEndedSynced="True">
+      <RealTime>01:04:52.9928693</RealTime>
+    </Attempt>
+    <Attempt id="6" started="01/01/2025 14:07:19" isStartedSynced="True" ended="01/01/2025 14:12:17" isEndedSynced="True" />
+    <Attempt id="7" started="01/01/2025 14:14:20" isStartedSynced="True" ended="01/01/2025 14:14:51" isEndedSynced="True" />
+    <Attempt id="8" started="01/06/2025 20:03:22" isStartedSynced="True" ended="01/06/2025 20:22:18" isEndedSynced="True" />
+    <Attempt id="9" started="01/06/2025 20:25:23" isStartedSynced="True" ended="01/06/2025 21:30:32" isEndedSynced="True" />
+    <Attempt id="10" started="01/07/2025 23:51:41" isStartedSynced="True" ended="01/08/2025 00:06:30" isEndedSynced="True" />
+    <Attempt id="11" started="01/09/2025 19:31:02" isStartedSynced="True" ended="01/09/2025 21:17:55" isEndedSynced="True">
+      <RealTime>01:46:52.9967398</RealTime>
+    </Attempt>
+    <Attempt id="12" started="01/09/2025 21:24:59" isStartedSynced="True" ended="01/09/2025 21:25:03" isEndedSynced="True" />
+    <Attempt id="13" started="01/09/2025 21:31:42" isStartedSynced="True" ended="01/09/2025 21:58:06" isEndedSynced="True" />
+    <Attempt id="14" started="01/09/2025 21:58:19" isStartedSynced="True" ended="01/09/2025 22:09:20" isEndedSynced="True" />
+    <Attempt id="15" started="01/09/2025 22:11:02" isStartedSynced="False" ended="01/09/2025 23:53:14" isEndedSynced="True" />
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>Guard Scorpion</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:10:05.2749087</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:09:56.3304535</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:11:07.1512936</RealTime>
+        </Time>
+        <Time id="13">
+          <RealTime>00:10:01.4775776</RealTime>
+        </Time>
+        <Time id="14">
+          <RealTime>00:09:56.3304535</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:10:05.2749087</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Arrive in Sector 7</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:17:37.9215777</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:32.6466690</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:07:59.9023644</RealTime>
+        </Time>
+        <Time id="13">
+          <RealTime>00:07:57.7155916</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:07:32.6466690</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Guard Skip</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:19:40.0174792</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.0959015</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:02:08.5304575</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:02:02.0959015</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Aps</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:34:48.6530914</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:15:08.6356122</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:18:43.3157180</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:15:08.6356122</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Sewers</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:35:56.4640267</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:07.8109353</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:01:25.3991610</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:01:07.8109353</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Train Graveyard</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:38:54.1378740</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:57.6738473</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:06:28.0479204</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:02:57.6738473</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Reno</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:42:39.1179838</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:14.7123211</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:00:14.7123211</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:03:44.9801098</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Shinra HQ (Mighty Grunts)</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:03:49.7728908</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:21:10.6549070</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:22:51.3036064</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:21:10.6549070</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Sample:H0512</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:14:13.2535525</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:14:13.2535525</RealTime>
+        </Time>
+        <Time id="15" />
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Gunners</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:12:44.5054870</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:12:44.5054870</RealTime>
+        </Time>
+        <Time id="15" />
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Rufus</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:34:13.0000280</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:25.3620432</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:01:25.3620432</RealTime>
+        </Time>
+        <Time id="15">
+          <RealTime>00:30:23.2271372</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Motor Ball</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:31.5128147</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="11">
+          <RealTime>00:07:31.5128147</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>
