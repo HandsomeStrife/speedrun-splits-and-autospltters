@@ -10,11 +10,11 @@ startup
     {
         emu.Make<byte>("GameStarted", 0x8009d89f);
         emu.Make<uint>("IGT", 0x8009D264);
-        emu.Make<byte>("GameMoment", 0x8009D288);
+        emu.Make<short>("GameMoment", 0x8009D288);
         emu.Make<byte>("StepID", 0x8009C540);
         emu.Make<byte>("StepFraction", 0x8009C6D8);
         emu.Make<byte>("ExitBattleStatus", 0x800F83C6);
-        emu.Make<byte>("CurrentField", 0x8009A05C);
+        emu.Make<short>("CurrentField", 0x8009A05C);
         return true;
     });
 
@@ -78,8 +78,19 @@ split
     if (current.ExitBattleStatus == 32 && vars.BattleSplits.ContainsKey(current.GameMoment))
     {
         string splitId = vars.BattleSplits[current.GameMoment];
-        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        print("[Split Debug] Checking battle split: " + splitId + " (GameMoment: " + current.GameMoment + ")");
+        
+        if (vars.CompletedSplits.Contains(splitId))
         {
+            print("[Split Debug] Skipping " + splitId + " - already completed");
+        }
+        else if (!settings[splitId])
+        {
+            print("[Split Debug] Skipping " + splitId + " - disabled in settings");
+        }
+        else if (vars.CompletedSplits.Add(splitId))
+        {
+            print("[Split Debug] Successfully splitting on " + splitId);
             return true;
         }
     }
@@ -91,16 +102,38 @@ split
     if (vars.FieldSplits.ContainsKey(currentTransition))
     {
         string splitId = vars.FieldSplits[currentTransition];
-        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        print("[Split Debug] Checking field transition: " + splitId + " (Transition: " + currentTransition + ")");
+        
+        if (vars.CompletedSplits.Contains(splitId))
         {
+            print("[Split Debug] Skipping " + splitId + " - already completed");
+        }
+        else if (!settings[splitId])
+        {
+            print("[Split Debug] Skipping " + splitId + " - disabled in settings");
+        }
+        else if (vars.CompletedSplits.Add(splitId))
+        {
+            print("[Split Debug] Successfully splitting on " + splitId);
             return true;
         }
     }
     else if (vars.FieldSplits.ContainsKey(anyTransition))
     {
         string splitId = vars.FieldSplits[anyTransition];
-        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        print("[Split Debug] Checking any field transition: " + splitId + " (Transition: " + anyTransition + ")");
+        
+        if (vars.CompletedSplits.Contains(splitId))
         {
+            print("[Split Debug] Skipping " + splitId + " - already completed");
+        }
+        else if (!settings[splitId])
+        {
+            print("[Split Debug] Skipping " + splitId + " - disabled in settings");
+        }
+        else if (vars.CompletedSplits.Add(splitId))
+        {
+            print("[Split Debug] Successfully splitting on " + splitId);
             return true;
         }
     }
