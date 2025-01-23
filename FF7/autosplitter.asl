@@ -32,6 +32,26 @@ startup
     settings.Add("MB_B", true, "Motor Ball");
 
     vars.CompletedSplits = new HashSet<string>();
+
+    // Define battle splits (GameMoment + ExitBattleStatus checks)
+    vars.BattleSplits = new Dictionary<int, string> {
+        {15, "GS_B"},     // Guard Scorpion
+        {206, "APS_B"},   // Aps
+        {221, "RENO_B"},  // Reno
+        {260, "MG_B"},    // Mighty Grunts
+        {278, "SH_B"},    // Sample:H0512
+        {311, "GUN_B"},   // Gunners
+        {314, "RUFUS_B"}, // Rufus
+        {332, "MB_B"}     // Motor Ball
+    };
+
+    // Define field transition splits (CurrentField changes)
+    vars.FieldSplits = new Dictionary<string, string> {
+        {"146:any", "S7"},           // Arrive in Sector 7
+        {"192:156", "GS"},          // Guard Skip
+        {"144:213", "SWRS"},        // Sewers
+        {"146:145", "TGY"}          // Train Graveyard
+    };
 }
 
 start
@@ -54,52 +74,36 @@ update
 
 split
 {
-    if (current.GameMoment == 15 && current.ExitBattleStatus == 32) {
-        return settings["GS_B"] && vars.CompletedSplits.Add("GS_B");
+    // Check battle-based splits
+    if (current.ExitBattleStatus == 32 && vars.BattleSplits.ContainsKey(current.GameMoment))
+    {
+        string splitId = vars.BattleSplits[current.GameMoment];
+        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        {
+            return true;
+        }
     }
 
-    if (current.CurrentField == 146 && old.CurrentField != 146) {
-        return settings["S7"] && vars.CompletedSplits.Add("S7");
+    // Check field transition splits
+    string currentTransition = current.CurrentField + ":" + old.CurrentField;
+    string anyTransition = current.CurrentField + ":any";
+    
+    if (vars.FieldSplits.ContainsKey(currentTransition))
+    {
+        string splitId = vars.FieldSplits[currentTransition];
+        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        {
+            return true;
+        }
+    }
+    else if (vars.FieldSplits.ContainsKey(anyTransition))
+    {
+        string splitId = vars.FieldSplits[anyTransition];
+        if (!vars.CompletedSplits.Contains(splitId) && settings[splitId] && vars.CompletedSplits.Add(splitId))
+        {
+            return true;
+        }
     }
 
-    if (current.CurrentField == 192 && old.CurrentField == 156) {
-        return settings["GS"] && vars.CompletedSplits.Add("GS");
-    }
-
-    if (current.GameMoment == 206 && current.ExitBattleStatus == 32) {
-        return settings["APS_B"] && vars.CompletedSplits.Add("APS_B");
-    }
-
-    if (current.CurrentField == 144 && old.CurrentField == 213) {
-        return settings["SWRS"] && vars.CompletedSplits.Add("SWRS");
-    }
-
-    if (current.CurrentField == 146 && old.CurrentField == 145) {
-        return settings["TGY"] && vars.CompletedSplits.Add("TGY");
-    }
-
-    if (current.GameMoment == 221 && current.ExitBattleStatus == 32) {
-        return settings["RENO_B"] && vars.CompletedSplits.Add("RENO_B");
-    }
-
-    if (current.GameMoment == 260 && current.ExitBattleStatus == 32) {
-        return settings["MG_B"] && vars.CompletedSplits.Add("MG_B");
-    }
-
-    if (current.GameMoment == 278 && current.ExitBattleStatus == 32) {
-        return settings["SH_B"] && vars.CompletedSplits.Add("SH_B");
-    }
-
-    if (current.GameMoment == 311 && current.ExitBattleStatus == 32) {
-        return settings["GUN_B"] && vars.CompletedSplits.Add("GUN_B");
-    }
-
-    if (current.GameMoment == 314 && current.ExitBattleStatus == 32) {
-        return settings["RUFUS_B"] && vars.CompletedSplits.Add("RUFUS_B");
-    }
-
-    if (current.GameMoment == 332 && current.ExitBattleStatus == 32) {
-        return settings["MB_B"] && vars.CompletedSplits.Add("MB_B");
-    }
-
+    return false;
 }
