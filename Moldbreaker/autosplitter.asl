@@ -38,7 +38,7 @@ split
         return true;
     }
 
-    if (old.loadingScene == "PARKOUR_2" && current.loadingScene == "ENTRANCE_2" && !vars.completedLevels.Contains("PARKOUR_2"))
+    if (old.loadingScene == "PARKOUR_2" && current.loadingScene == "ENTRANCE_1" && !vars.completedLevels.Contains("PARKOUR_2"))
     {
         vars.completedLevels.Add("PARKOUR_2");
         return true;
