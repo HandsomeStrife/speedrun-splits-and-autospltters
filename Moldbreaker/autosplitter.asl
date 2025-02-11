@@ -22,7 +22,7 @@ init
 update
 {
     current.activeScene = vars.Helper.Scenes.Active.Name ?? old.activeScene;
-    current.loadingScene = vars.Helper.Scenes.Loaded[0].Name ?? old.loadingScene;
+    current.loadingScene = vars.Helper.Scenes.Loaded[0].Name;
 }
 
 start
@@ -44,7 +44,7 @@ split
         return true;
     }
 
-    if (old.loadingScene == "PARKOUR_3" && current.loadingScene == "CREDITS" && !vars.completedLevels.Contains("PARKOUR_3")) 
+    if (current.activeScene == "CREDITS" && !vars.completedLevels.Contains("PARKOUR_3")) 
     {
         vars.completedLevels.Add("PARKOUR_3");
         return true;
