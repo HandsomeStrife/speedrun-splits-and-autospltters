@@ -9,20 +9,11 @@ startup {
     Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
     vars.Helper.GameName = "Darkest Island";
     vars.Helper.AlertLoadless();
-}
-
-init {
     vars.switching_exes = false;
 }
 
 start {
     return old.status_indicator == 19769 && (current.status_indicator == 11301 || current.status_indicator == 11287);
-}
-
-update {
-    if (current.level != old.level) {
-        print(current.level);
-    }
 }
 
 split {
@@ -71,5 +62,5 @@ onStart {
 }
 
 onReset {
-    vars.LevelList.Clear();
+    vars.switching_exes = false;
 }
