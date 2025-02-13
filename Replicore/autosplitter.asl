@@ -11,13 +11,7 @@ startup {
 }
 
 start {
-    return old.status_indicator == 21612 && (current.status_indicator == 12449 || current.status_indicator == 10904);
-}
-
-update {
-    if (current.status_indicator != old.status_indicator) {
-        print("Status indicator changed from " + old.status_indicator + " to " + current.status_indicator);
-    }
+    return old.status_indicator == 21612 && current.zero_when_loading == 0;
 }
 
 split {
