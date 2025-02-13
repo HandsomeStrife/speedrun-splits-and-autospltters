@@ -11,7 +11,7 @@ startup {
 }
 
 start {
-    return old.status_indicator == 12449 && current.status_indicator != 21612;
+    return old.status_indicator == 21612 && (current.status_indicator == 12449 || current.status_indicator == 10904);
 }
 
 update {
