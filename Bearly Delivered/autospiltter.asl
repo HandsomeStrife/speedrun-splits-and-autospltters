@@ -5,19 +5,6 @@ state("BearlyDelivered")
     byte level: 0x5CAF540, 0x310, 0x188, 0x18, 0x68, 0x28, 0x38;
 }
 
-update
-{
-    if (old.gameStarted != current.gameStarted) {
-        print("Game Started changed from " + old.gameStarted.ToString() + " to " + current.gameStarted.ToString());
-    }
-    if (old.loadingIndicator != current.loadingIndicator) {
-        print("Loading Indicator changed from " + old.loadingIndicator.ToString() + " to " + current.loadingIndicator.ToString());
-    }
-    if (old.level != current.level) {
-        print("Level changed from " + old.level.ToString() + " to " + current.level.ToString());
-    }
-}
-
 start
 {
     return old.gameStarted == 4 && current.gameStarted == 7;
