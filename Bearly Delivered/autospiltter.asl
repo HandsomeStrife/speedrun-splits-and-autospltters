@@ -12,7 +12,7 @@ start
 
 split
 {
-    return (old.level != current.level && current.level > 0) || (current.level == 20 && current.gameStarted == 4)
+    return (old.level != current.level && current.level > 0) || (current.level == 20 && current.gameStarted == 4);
 }
 
 isLoading
