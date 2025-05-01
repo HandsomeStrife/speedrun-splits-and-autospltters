@@ -7,6 +7,16 @@ startup
     vars.Helper.GameName = "Teddy Roller";
 }
 
+update
+{
+    vars.Helper.Update();
+	vars.Helper.MapPointers();
+    var world = vars.FNameToString(current.MapName);
+    if (!string.IsNullOrEmpty(world) && world != "None")
+		current.World = world;
+	// if (old.World != current.World) vars.Log("GWorldName: " + current.World.ToString());
+}
+
 init
 {
     vars.Helper["MapName"] = vars.Helper.Make<ulong>(0x6A45F08, 0x18);
