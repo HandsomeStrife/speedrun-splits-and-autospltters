@@ -1,1 +1,0 @@
-loadPlugin( getAutoRunPath()..'plugins\\UEPipeClient.dll' )
