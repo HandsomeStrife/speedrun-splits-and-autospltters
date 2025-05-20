@@ -2,6 +2,7 @@ state("FPSCPP-Win64-Shipping")
 {
     // Define the world pointer directly in the state
     ulong worldPtr : 0x6831510;
+    byte started: 0x66DB9E8;
 }
 
 startup
@@ -111,5 +112,24 @@ update
             vars.Log("World changed: " + old.World + " -> " + current.World);
         }
     }
+
+    if (old.started != current.started)
+    {
+        vars.Log("Started: " + old.started.ToString() + " | " + current.started.ToString());
+    }
 }
 
+start
+{
+    return old.started == 176 && current.started > 176 && current.started < 180;
+}
+
+split
+{
+    return old.World != "OpeningMenu" && old.World != current.World;
+}
+
+reset
+{
+    return old.World != "OpeningMenu" && current.World == "OpeningMenu";
+}
