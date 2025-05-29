@@ -82,3 +82,8 @@ split
     
     return false;
 }
+
+reset
+{
+    return current.activeScene == "Main Menu" && old.activeScene != "Main Menu";
+}
